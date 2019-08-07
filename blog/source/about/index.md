@@ -6,11 +6,12 @@ type: "about"
 comments: true
 ---
 
-| 姓名 / Name     |  吴熠铭 / Yiming WU |
-| --------------- | ------------------: |
-| 邮箱 / email    | onethree_13@163.com |
-| 电话 / Tel.     |     +86 18521591456 |
-| 职业 / title    |      学生 / student |
-| 生日 / birthday |          1996.03.22 |
+| 姓名 / Name     |     吴熠铭 / Yiming WU |
+| --------------- | ---------------------: |
+| 邮箱 / email    | onethreefred@gmail.com |
+| 电话 / Tel.     |        +86 18521591456 |
+|                 |      +1 (213) 275-8078 |
+| 生日 / birthday |             1996.03.22 |
 
 剩下的留给评论区好了。
+
