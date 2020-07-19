@@ -6,12 +6,10 @@ type: "about"
 comments: true
 ---
 
-| 姓名 / Name     |     吴熠铭 / Yiming WU |
-| --------------- | ---------------------: |
-| 邮箱 / email    | onethreefred@gmail.com |
-| 电话 / Tel.     |        +86 18521591456 |
-|                 |      +1 (213) 275-8078 |
-| 生日 / birthday |             1996.03.22 |
++ 联系方式：[onethreefred@gmail.com](mailto://onethreefred@gmail.com)
++ 送生日礼物的时间：3月22日
++ [Instagram](https://www.instagram.com/yiming.wu.5667/)
++ [Bilibili](https://space.bilibili.com/3233487)
 
 剩下的留给评论区好了。
 
