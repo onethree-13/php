@@ -4,54 +4,69 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
+<!--
+    rain effect credit to: https://github.com/SardineFish/raindrop-fx
+-->
 <html>
 
 <head>
     <title>Yiming WU' Homepage</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="main.css" />
     <meta name="google-site-verification" content="CX0guxygez1DxRQ9CvA7f48QY2q-NTxieUFfeyD_J1w" />
     <meta name="baidu-site-verification" content="tx239KWR1J" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/main.css" />
+
+    <script src="./bundle/index.js"></script>
 </head>
 
 <body class="is-loading">
 
-    <!-- Wrapper -->
-    <div id="wrapper">
+    <div id="root">
+        <canvas id="canvas"></canvas>
+        <!-- Wrapper -->
+        <div id="wrapper">
 
-        <!-- Main -->
-        <section id="main">
-            <header>
-                <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
-                <h1>Yiming WU</h1>
-                <p>吴熠铭</p>
-            </header>
-            <footer>
-                <ul class="icons">
-                    <li>
-                        <div class="tooltip">
-                            <a href="https://www.instagram.com/yiming.wu.5667/" class="fa fa-instagram"> Instagram </a>
-                            <span class="tooltiptext">Instagram</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="tooltip">
-                            <a href="https://blog.wym.me/" class="fa fa-rss">Blog</a>
-                            <span class="tooltiptext">Blog</span>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="tooltip">
-                            <a href="mailto:onethreefred@gmail.com" class="fa fa-envelope">Email</a>
-                            <span class="tooltiptext">Email</span>
-                        </div>
-                    </li>
-                </ul>
-            </footer>
+            <!-- Main -->
+            <section id="main">
+                <header>
+                    <span class="avatar"><img src="images/avatar.jpg" alt="" /></span>
+                    <h1>Yiming WU</h1>
+                    <p>吴熠铭</p>
+                </header>
+                <footer>
+                    <ul class="icons">
+                        <li>
+                            <div class="tooltip">
+                                <a href="https://www.instagram.com/yiming.wu.5667/" class="fa fa-instagram"> Instagram </a>
+                                <span class="tooltiptext">Instagram</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip">
+                                <a href="https://blog.wym.me/" class="fa fa-rss">Blog</a>
+                                <span class="tooltiptext">Blog</span>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="tooltip">
+                                <a href="mailto:onethreefred@gmail.com" class="fa fa-envelope">Email</a>
+                                <span class="tooltiptext">Email</span>
+                            </div>
+                        </li>
+                    </ul>
+                </footer>
 
+        </div>
     </div>
+
+    <script src="./demo.js"></script>
+
+
 
     <script>
         if ('addEventListener' in window) {
@@ -61,7 +76,6 @@
             document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
         }
     </script>
-
 </body>
 
 </html>
