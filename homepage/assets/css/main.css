@@ -15,7 +15,7 @@ ul {
 
 /* Basic */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
     html,
     body {
         min-width: 320px;
@@ -251,7 +251,6 @@ ul.icons {
     cursor: default;
     list-style: none;
     padding-left: 0;
-    margin-top: -0.675em;
 }
 
 ul.icons li {
@@ -330,19 +329,6 @@ ul.actions li:last-child {
     padding-right: 0;
 }
 
-dl {
-    margin: 0 0 1.5em 0;
-}
-
-dl dt {
-    display: block;
-    margin: 0 0 0.75em 0;
-}
-
-dl dd {
-    margin-left: 1.5em;
-}
-
 
 /* Main */
 
@@ -377,16 +363,6 @@ dl dd {
     box-shadow: 0 0 0 0.1em #ffffff;
 }
 
-@media screen and (max-width: 480px) {
-    #main {
-        min-width: 0;
-        width: 100%;
-    }
-    #main .avatar:before {
-        width: calc(100%);
-    }
-}
-
 body.is-loading #main {
     opacity: 0;
     -moz-transform: rotateX(15deg);
@@ -404,7 +380,6 @@ body.is-loading #main {
     -ms-align-self: -ms-flex-end;
     align-self: flex-end;
     width: 100%;
-    padding: 1.5em 0 0 0;
     color: rgba(255, 255, 255, 0.75);
     cursor: default;
     text-align: center;
@@ -466,12 +441,6 @@ body.is-loading #main {
 #wrapper:before {
     content: '';
     display: block;
-}
-
-@media screen and (max-width: 360px) {
-    #wrapper {
-        padding: 0.75em;
-    }
 }
 
 body.is-ie #wrapper {

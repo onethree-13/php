@@ -4,17 +4,19 @@
 
 const canvas = document.querySelector("#canvas");
 const rect = canvas.getBoundingClientRect();
-canvas.width = rect.width;
-canvas.height = rect.height;
+canvas.width = outerWidth;
+canvas.height = outerHeight;
 
 const raindropFx = new RaindropFX({
     canvas: canvas,
-    background: "https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=2346282507,2171850944&fm=26&gp=0.jpg",
+    background: "./images/b.jpg",
 });
 
 window.onresize = () => {
     const rect = canvas.getBoundingClientRect();
-    raindropFx.resize(rect.width, rect.height);
+    raindropFx.resize(outerWidth, outerHeight);
 }
-
 raindropFx.start();
+// https://s3.ax1x.com/2021/03/07/6KFoWQ.jpg
+// https://imgtu.com/i/6KFoWQ
+// https://inews.gtimg.com/newsapp_ls/0/13257231567/0
