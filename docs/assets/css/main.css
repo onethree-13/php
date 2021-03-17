@@ -53,12 +53,16 @@ body {
     background-size: cover;
     line-height: 1;
     background-color: #ffffff;
-    background-image: url("images/overlay.png"), -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
-    background-image: url("images/overlay.png"), linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: /* url("images/overlay.png"),  */
+    -moz-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: /* url("images/overlay.png"),  */
+    -webkit-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: /* url("images/overlay.png"),  */
+    -ms-linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
+    background-image: /* url("images/overlay.png"),  */
+    linear-gradient(60deg, rgba(255, 165, 150, 0.5) 5%, rgba(0, 228, 255, 0.35));
     background-repeat: repeat, no-repeat, no-repeat;
-    background-size: 100px 100px, cover, cover;
+    /* background-size: 100px 100px, cover, cover; */
     background-position: top left, center center, bottom center;
     background-attachment: fixed, fixed, fixed;
 }
@@ -156,6 +160,7 @@ h1 {
     font-size: 1.85em;
     letter-spacing: 0.22em;
     margin: 0 0 0.525em 0;
+    font-family: 'Pacifico', cursive;
 }
 
 h1 a {
@@ -167,24 +172,6 @@ h1 a {
     h1 {
         font-size: 1.65em;
     }
-}
-
-sub {
-    font-size: 0.8em;
-    position: relative;
-    top: 0.5em;
-}
-
-sup {
-    font-size: 0.8em;
-    position: relative;
-    top: -0.5em;
-}
-
-hr {
-    border: 0;
-    border-bottom: solid 1px #c8cccf;
-    margin: 3em 0;
 }
 
 
@@ -224,27 +211,12 @@ ol li {
 
 ul {
     list-style: disc;
-    margin: 0 0 1.5em 0;
+    margin: 0;
     padding-left: 1em;
 }
 
 ul li {
     padding-left: 0.5em;
-}
-
-ul.alt {
-    list-style: none;
-    padding-left: 0;
-}
-
-ul.alt li {
-    border-top: solid 1px #c8cccf;
-    padding: 0.5em 0;
-}
-
-ul.alt li:first-child {
-    border-top: 0;
-    padding-top: 0;
 }
 
 ul.icons {
@@ -264,8 +236,8 @@ ul.icons li a {
     display: block;
     width: 3.75em;
     height: 3.75em;
-    border-radius: 100%;
-    border: solid 1px #c8cccf;
+    /* border-radius: 100%;
+    border: solid 1px #c8cccf; */
     line-height: 3.75em;
     overflow: hidden;
     text-align: center;
@@ -311,22 +283,6 @@ ul.icons li a:hover {
     ul.icons li a:before {
         font-size: 1.5rem;
     }
-}
-
-ul.actions {
-    cursor: default;
-    list-style: none;
-    padding-left: 0;
-}
-
-ul.actions li {
-    display: inline-block;
-    padding: 0 0.75em 0 0;
-    vertical-align: middle;
-}
-
-ul.actions li:last-child {
-    padding-right: 0;
 }
 
 
@@ -385,25 +341,6 @@ body.is-loading #main {
     text-align: center;
 }
 
-#footer .copyright {
-    margin: 0;
-    padding: 0;
-    font-size: 0.9em;
-    list-style: none;
-}
-
-#footer .copyright li {
-    display: inline-block;
-    margin: 0 0 0 0.45em;
-    padding: 0 0 0 0.85em;
-    border-left: solid 1px rgba(255, 255, 255, 0.5);
-    line-height: 1;
-}
-
-#footer .copyright li:first-child {
-    border-left: 0;
-}
-
 
 /* Wrapper */
 
@@ -459,14 +396,16 @@ body.is-ie #wrapper {
     text-align: center;
     padding: 1px 0;
     position: absolute;
-    font-size: 10pt;
+    font-size: 16pt;
     z-index: 1;
     top: 100%;
     left: 50%;
     margin-left: -60px;
+    margin-top: 5px;
     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
     opacity: 0;
     transition: opacity 1s;
+    font-family: 'Pacifico', cursive;
 }
 
 .tooltip:hover .tooltiptext {
