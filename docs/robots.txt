@@ -3,4 +3,4 @@ Allow: /
 
 Disallow: 
 
-Sitemap: http://wym.me/sitemap.xml
+Sitemap: https://wym.me/sitemap.xml
