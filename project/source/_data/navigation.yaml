@@ -1,0 +1,18 @@
+logo:
+  text: 社会主义行为艺术
+  type: link
+  path: 
+
+main:
+- text: 概念解释
+  type: label
+- text: 生产力与意识形态
+  type: link
+  path: ideology
+- text: 行为艺术
+  type: link
+  path: performance_art
+  # children:
+  # - text: My Awesome Projects Page 1
+  #   type: link
+  #   path: plan
