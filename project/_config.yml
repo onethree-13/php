@@ -106,3 +106,9 @@ deploy:
 
 theme_config:
   favicon: images/favicon.ico
+
+search:
+  path: search.json
+  field: post
+  format: html
+  limit: 10000

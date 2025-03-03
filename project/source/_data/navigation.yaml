@@ -4,14 +4,20 @@ logo:
   path: 
 
 main:
-- text: 概念解释
-  type: label
+# - text: 概念解释
+#   type: label
 - text: 生产力与意识形态
   type: link
   path: ideology
 - text: 行为艺术
   type: link
   path: performance_art
+- text: 经济基础
+  type: link
+  path: infrastructure
+- text: 需求
+  type: link
+  path: demand
   # children:
   # - text: My Awesome Projects Page 1
   #   type: link
