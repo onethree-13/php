@@ -12,17 +12,25 @@ main:
 - text: 阶级与分配
   type: link
   path: reallocation
-  children:
-  - text: 需求
-    type: link
-    path: demand
+- text: 代理人
+  type: link
+  path: agent
 - text: 行为艺术
   type: link
   path: performance_art
-  # children:
-  # - text: My Awesome Projects Page 1
-  #   type: link
-  #   path: plan
-- text: 启动形式
+- text: 内容调研
   type: label
-- text: 100个志愿者
+- text: 养老模式
+  type: link
+  path: elderly_care
+- text: 超龄工作者
+  type: link
+  path: self_reliance
+- text: 大学生就业
+  type: link
+  path: youth
+- text: 未完成
+  type: label
+- text: 需求
+  type: link
+  path: demand
